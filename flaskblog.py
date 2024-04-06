@@ -5,7 +5,7 @@ app=Flask(__name__)
 posts =[
     {
         'title':'Blog Post 1',
-        'author': 'Gideon Kiplangat',
+        'author': 'Nahum Jepkemboi',
         'date_posted':'6 April 2024',
         'content': 'The is our first post, welcome'
     },
