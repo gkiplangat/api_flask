@@ -14,6 +14,12 @@ posts =[
         'author': 'Philip Kiprotich',
         'date_posted':'7 April 2024',
         'content': 'The is our second post, welcome'
+    },
+    {
+        'title':'Blog Post 3',
+        'author': 'Cleophas Kiprotich',
+        'date_posted':'8 April 2024',
+        'content': 'The is our third post, welcome'
     }
 ]
 
@@ -26,7 +32,7 @@ def home():
 # About Us Page
 @app.route('/about/')
 def about():
-    return render_template('about.html')
+    return render_template('about.html', title='About')
 
 if __name__=='__main__':
     app.run(debug=True)
